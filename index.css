@@ -1,0 +1,95 @@
+body{
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(96, 135, 169);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 800px;
+    background-color: rgb(216, 240, 240);
+    margin: 50px auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+
+h1,h2{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+input{
+
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 20px;
+}
+
+button{
+
+    margin-top: 5px;
+}
+
+.authentication_section{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.registration_section{
+
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.login_section{
+
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.doctor_card{
+    border: 1px solid rgb(204, 235, 239);
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+    background-color: rgb(6, 57, 91);
+    color: white;
+}
+
+.info{
+    font-size: 14px;
+    color: darkgrey;
+    margin-top: 8px;
+}
+
+
+#appointment_area{
+
+    border: 1px solid rgb(204, 235, 239);
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+    background-color: rgb(6, 57, 91);
+    color: white;
+
+}
