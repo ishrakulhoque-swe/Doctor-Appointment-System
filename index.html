@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+       <h1>Hospital Appointment System</h1><br>
+        <!-- Authentication Section -->
+         <div class="authentication_section" id="auth_section">
+            
+            <!-- Registration Section -->
+             <div class="registration_section" id="reg_section">
+                <h2>Register</h2><br>
+                <form id="registration_form">
+
+                    <label for="reg_name">Full Name</label>
+                    <input type="text" id="reg_name" required>
+
+                    <label for="reg_email">Email</label>
+                    <input type="email" id="reg_email" required>
+
+                    <label for="reg_pass">Password</label>
+                    <input type="password" id="reg_pass" required>
+                    <br>
+                    <button type="submit">Register</button>
+
+                </form>
+             </div>
+
+            <!-- Login section -->
+             <div class="login_section">
+                <br>
+                <h2>Login</h2><br>
+                <form id="login_form">
+
+                    <label for="log_email">Email</label>
+                    <input type="email" id="log_email" required>
+
+                    <label for="log_pass">Password</label>
+                    <input type="password" id="log_pass" required>
+                    <br>
+                    <button type="submit">Login</button>
+                </form>
+
+                <p id="log_error" class="error"></p>
+
+             </div>
+         </div>
+
+        <!-- Application section -->
+
+        <div class="hidden" id="app_section">
+            <h2>Welcome, <span id="user_name"></span> </h2>
+            <hr>
+
+            <h2>Doctors List</h2>
+            <div id="doctor_list"></div>
+
+            <hr>
+
+            <h2>Book appointment</h2>
+            <div id="appointment_area">
+                <p class="info">Select a doctor from the list above to book an appointment</p>
+
+                <p id="booking_message" class="message"></p>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
